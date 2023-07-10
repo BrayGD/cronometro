@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    background: url(./images/fondo.jpg) no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor-principal{
+    width: 80vw;
+    min-height: 200px;
+    max-width: 480px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 5px solid #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-interno{
+    padding: 40px;
+
+}
+
+#tiempo{
+    width: 100%;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 80px;
+    user-select: none;
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i{
+    background: #08e008;
+    cursor: pointer;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i{
+    background: #ebe722;
+    cursor: pointer;
+}
+
+#boton-reiniciar{
+    background: #f82408;
+    cursor: pointer;
+}
